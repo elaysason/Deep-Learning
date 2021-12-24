@@ -20,9 +20,9 @@ The MINSIT databse got digits from 0 to 9
 The various classifiers try to learn the the different characteristics unique to each digit, thus matching the digits in the test set to the digit that best suits it.
 
 #### About The Classifiers
-As in the comparssion we compare between the activation function and the number of layer the optimizer function and the loss function are the same between them in order to isolate the effect of the compared attribute. 
-* ```KNN Algorithm```: The algorithm predicts the flowers in the test set by the K flowers closest to it (by Euclidean distance).
-	***
+As in the comparssion we compare between the activation function and the number of layer the optimizer function and the loss function are the same between them in order to isolate the effect of the compared attribute. The comparison is made between activation functions:
+* ```Relu```: ![formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/bb2c32931fad595832c8e66f2f73760ebcbc0096)
+* 	***
 * ```Perceptron Algorithm:``` The algorithm multiplies each feature of the flower by an array of weights. Each label of the flowers has different weights, and the multiplication is done with each of them. The prediction that chosen for a flower in the test set was chosen according to which weight resulted in a maximum value. When there is an error in the prediction of the training set, the weights change as follows:
 
     ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^y_{t%2B1}=w^y_{t}%2B\eta%20\cdot%20x})
