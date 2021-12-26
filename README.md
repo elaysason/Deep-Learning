@@ -28,8 +28,8 @@ As in the comparssion we compare between the activation function and the number 
 
 
 ![alt text](https://i.imgur.com/lTGxBYP.png)
-	***
-The comparison is between 2,3 and 4 layers because the baseline was 3 and I wanted to check the effect of adding and removing one layer.
+***
+The comparison is between 2,3 and 4 layers because the baseline was 3 and I wanted to check the effect of adding and removing one layer. Finnaly as we have 2 choosies for activation function and 3 for n
  
 ### Program Structure
 The code is divided into 4 main functions. In fact, one function per algorithm. Given the training and test files, normalization is performed according to zscore normalization and feature selection is performed too. Then, the four algorithms are called and each in turn returns a list of predictions for each point in the test set. The program exports all the lists to an output file whose contents are briefly explained in the next section.
