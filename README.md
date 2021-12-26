@@ -22,32 +22,14 @@ The various classifiers try to learn the the different characteristics unique to
 #### About The Classifiers
 As in the comparssion we compare between the activation function and the number of layer the optimizer function and the loss function are the same between them in order to isolate the effect of the compared attribute. The comparison is made between activation functions:
 * ```Relu```: 
-* ![formula](https://render.githubusercontent.com/render/math?math=\color{black}\large{Relu(x)=max(0,x)})	
-* ```TanH``` :
-* ![equation](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8e81902c8d71b06c246769bad0fe17c9cf1efd9)
+![formula](https://render.githubusercontent.com/render/math?math=\color{black}\large{Relu(x)=max(0,x)})	
+* ```TanH``` : 
+![equation](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8e81902c8d71b06c246769bad0fe17c9cf1efd9)
 
 
 ![alt text](https://i.imgur.com/lTGxBYP.png)
 	***
-* ```SVM (Support Vector Machine) Algorithm:``` Similar to the previous algorithm, the algorithm multiplies each feature of the flower by an array of weights. Each label of the flowers has different weights, and the multiplication is done with each of them. The prediction for each flower in the test set was chosen according to which weight resulted in a maximum value. The difference between the two is the way of learning -- in both algorithms, whenever there is an error in the labeling in the training set, the algorithm changes the weights that caused the error. In ```SVM``` the change happens as follows:
-
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^y_{t%2B1}=\left(1-\eta\lambda\right)\cdot%20w^y_{t}%2B\eta%20\cdot%20x})
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^\hat{y}_{t%2B1}=\left(1-\eta\lambda\right)\cdot%20w^\hat{y}_{t}-\eta%20\cdot%20x})
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^{i\ne%20\hat{y},y}_{t%2B1}=\left(1-\eta\lambda\right)\cdot%20w^{i\ne%20\hat{y},y}_{t}})
-    
-
-	***
-* ```PA (Passive Aggressive) Algorithm:``` Perfectly similar to Perceptron except for the weight change process performed as follows:
-
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^y_{t%2B1}=w^y_{t}%2B\tau%20\cdot%20x})
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^\hat{y}_{t%2B1}=w^{\hat{y}}_{t}-\tau%20\cdot%20x})
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^{i\ne%20\hat{y},y}_{t%2B1}=w^{i\ne%20\hat{y},y}_{t}})
-    
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{\text{where%20}\tau\text{is%20set%20to:%20%20}\tau=\frac{\ell\left(w,x,y\right)}{2\cdot\||x||^2}})
+	We are comapring between 2,3 and 4 layers 
  
 ### Program Structure
 The code is divided into 4 main functions. In fact, one function per algorithm. Given the training and test files, normalization is performed according to zscore normalization and feature selection is performed too. Then, the four algorithms are called and each in turn returns a list of predictions for each point in the test set. The program exports all the lists to an output file whose contents are briefly explained in the next section.
