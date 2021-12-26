@@ -26,12 +26,8 @@ As in the comparssion we compare between the activation function and the number 
 * ```TanH``` :
 * ![equation](https://wikimedia.org/api/rest_v1/media/math/render/svg/f8e81902c8d71b06c246769bad0fe17c9cf1efd9)
 
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{Relu(x)=max(0,x)}})
 
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^\hat{y}_{t%2B1}=w^{\hat{y}}_{t}-\eta%20\cdot%20x})
-
-    ![formula](https://render.githubusercontent.com/render/math?math=\color{gray}\large{w^{i\ne%20\hat{y},y}_{t%2B1}=w^{i\ne%20\hat{y},y}_{t}})
-
+![alt text](https://i.imgur.com/lTGxBYP.png)
 	***
 * ```SVM (Support Vector Machine) Algorithm:``` Similar to the previous algorithm, the algorithm multiplies each feature of the flower by an array of weights. Each label of the flowers has different weights, and the multiplication is done with each of them. The prediction for each flower in the test set was chosen according to which weight resulted in a maximum value. The difference between the two is the way of learning -- in both algorithms, whenever there is an error in the labeling in the training set, the algorithm changes the weights that caused the error. In ```SVM``` the change happens as follows:
 
