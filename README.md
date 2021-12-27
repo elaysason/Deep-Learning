@@ -5,9 +5,8 @@ Implementation of different fully connected classifiers which solves MINSIT and 
     - [Background](#background)
     - [Program Structure](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#program-structure)
     - [Running Instructions](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#running-instructions)
-2. [Dependencies](#dependencies) 
-3. [Installation](#installation)
-4. [Footnote](#footnote)
+2. [Installation](#installation)
+3. [Footnote](#footnote)
 
 ## General
 
@@ -40,10 +39,6 @@ After donwloading the file on colab. Press on file -> open nootbook -> Upload an
 
 Now you can run the whole nootbok or specfic cells.
 
-## Dependencies
-* [Python 3.6+](https://www.python.org/downloads/)
-* Git
-* [NumPy](https://numpy.org/install/)
 
 ## Installation
 I will use google as an example but similar procces can be prefomred on other nootbook editors
@@ -52,7 +47,7 @@ I will use google as an example but similar procces can be prefomred on other no
 	```
 	!git clone https://github.com/elaysason/Deep-Learning.git
 	```	
-<img src="https://i.imgur.com/FOCHnOA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
+<img src="https://i.imgur.com/FOCHnOA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 
 3. Now the folder is in your files on colab. simpily download the nootbook as showed
 <img src="https://i.imgur.com/I1P2DOv.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
@@ -60,6 +55,4 @@ I will use google as an example but similar procces can be prefomred on other no
 
 	 
 ## Footnote:
-As you can see, there are a number of additional files. The files contain different graphs of different experiments in the program (for example, changing the value of the learning rate or changing the feature that is downloaded, etc.). In addition, it contains a report in the Hebrew language that explains the implementation of the algorithms, the experiments performed and the graphs.	 
-
-In addition, there is also the label file of the test file, called test_y.txt. You can run the algorithm and check my accuracy percentages (which stand at ```96.66%``` in KNN, ```94.86%``` in perceptron, ```96.26%``` in SVM and ```94.25%``` in PA).
+The paramters which wasn't comppared in Exerice 1 was determinted from the baseline case which was given.
