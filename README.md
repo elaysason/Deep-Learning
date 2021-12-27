@@ -50,12 +50,14 @@ The training data set file should contain a number of lines, so that each line c
 * [NumPy](https://numpy.org/install/)
 
 ## Installation
-
-1. Open the terminal
+I will use google as an example but similar procces can be prefomred on other nootbook editors
+1. Open google colab
 2. Clone the project by:
 	```
-	$ git clone https://github.com/tomershay100/Multiclass-Classification.git
+	!git clone https://github.com/elaysason/Deep-Learning.git
 	```	
+<img src="https://i.imgur.com/FOCHnOA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
+
 3. Run the ```main.py``` file:
 	```
 	$ python3 main.py train_x.txt train_y.txt test_x.txt output.txt
