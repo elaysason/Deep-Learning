@@ -4,7 +4,7 @@ Implementation of different fully connected classifiers which solves MINSIT and 
 1. [General](#General)
     - [Background](#background)
     - [Program Structure](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#program-structure)
-    - [Running Instructions](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#running-instructions)
+    - [Running Instructions](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#running-instructions)
 2. [Installation](#installation)
 3. [Footnote](#footnote)
 
