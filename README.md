@@ -1,10 +1,9 @@
 # Deep-Learning
-Implementation of different fully connected classifier which solves MINSIT and comparison between them.Furthurmore there is an demonstration of overfitting to random labels in Exerice 2.
+Implementation of different fully connected classifiers which solves MINSIT and comparison between them.Furthurmore there is an demonstration of overfitting to random labels in Exerice 2.
 
 1. [General](#General)
     - [Background](#background)
     - [Program Structure](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#program-structure)
-    - [About The Output File](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#about-the-output-file)
     - [Running Instructions](https://github.com/tomershay100/Multiclass-Classification/blob/main/README.md#running-instructions)
 2. [Dependencies](#dependencies) 
 3. [Installation](#installation)
@@ -32,16 +31,9 @@ As in the comparssion we compare between the activation function and the number 
 The comparison is between 2,3 and 4 layers because the baseline was 3 and I wanted to check the effect of adding and removing one layer. Finnaly as we have 2 choosies for activation function and 3 for n
  
 ### Program Structure
-The code is divided into 4 main functions. In fact, one function per algorithm. Given the training and test files, normalization is performed according to zscore normalization and feature selection is performed too. Then, the four algorithms are called and each in turn returns a list of predictions for each point in the test set. The program exports all the lists to an output file whose contents are briefly explained in the next section.
+Exerice 1 is divded to servel parts. The first part is creating the the train and test function which will be used by each classifier to train and test its performence.The next part is defining the diffrent classifiers and running train and test on them. At last, there is comprassion between the the layers number selecting the best one and similar process for the activation function. 
 
-### About The Output File
-All the predictions of each of the algorithms are exported to an output file whose name is received as input to the program. The file contains the data as follows:
-```
-knn: 0, perceptron: 0, svm: 0, pa: 1
-knn: 1, perceptron: 2, svm: 1, pa: 1
-knn: 2, perceptron: 2, svm: 2, pa: 1
-...
-```
+In Exerice 2, a similar procces is contsructed.After deffining the needed train and test function we run on a large number of epochs and watch the effect on train and test loss.
 
 ### Running Instructions
 In order to run the program, it must provide 4 arguments:
