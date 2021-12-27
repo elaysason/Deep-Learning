@@ -36,13 +36,9 @@ Exerice 1 is divded to servel parts. The first part is creating the the train an
 In Exerice 2, a similar procces is contsructed.After deffining the needed train and test function we run on a large number of epochs and watch the effect on train and test loss.
 
 ### Running Instructions
-In order to run the program, it must provide 4 arguments:
-* First, a path to the ```txt``` file that contains the training data set.
-* Second, a path to the ```txt``` file that contains the labels of each row in the training data set.
-* Third, a path to the ```txt``` file that contains the test set.
-* Fourth, a path to the output file to which the predictions of each of the algorithms will be written.
+After donwloading the file on colab. Press on file -> open nootbook -> Upload and then drop to downloaded file.
 
-The training data set file should contain a number of lines, so that each line consists of 5 floating numbers separated by commas. So is the test set file. The label file consists of the same number of rows of the training set file and contains one numeric value (between 0 and 2) in each row.
+Now you can run the whole nootbok or specfic cells.
 
 ## Dependencies
 * [Python 3.6+](https://www.python.org/downloads/)
@@ -58,11 +54,10 @@ I will use google as an example but similar procces can be prefomred on other no
 	```	
 <img src="https://i.imgur.com/FOCHnOA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
 
-3. Run the ```main.py``` file:
-	```
-	$ python3 main.py train_x.txt train_y.txt test_x.txt output.txt
-	 ```
-	 
+3. Now the folder is in your files on colab. simpily download the nootbook as showed
+<img src="https://i.imgur.com/I1P2DOv.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
+	
+
 	 
 ## Footnote:
 As you can see, there are a number of additional files. The files contain different graphs of different experiments in the program (for example, changing the value of the learning rate or changing the feature that is downloaded, etc.). In addition, it contains a report in the Hebrew language that explains the implementation of the algorithms, the experiments performed and the graphs.	 
