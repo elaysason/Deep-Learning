@@ -51,7 +51,7 @@ I will use google as an example but similar procces can be prefomred on other no
 <img src="https://i.imgur.com/GpMGS2t.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 
 3. Now the folder is in your files on colab. simpily download the nootbook as showed
-<img src="https://i.imgur.com/I1P2DOv.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
+<img src="https://i.imgur.com/yl4jdKr.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
 	
 
 	 
