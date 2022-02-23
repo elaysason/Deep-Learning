@@ -45,8 +45,7 @@ I will use google as an example but similar procces can be prefomred on other no
 1. Open google colab
 2. Clone the project by:
 	```
-	!git clone https://github.com/elaysason/Deep-Learning-Comparining-Overfitting
-.git
+	!git clone https://github.com/elaysason/Deep-Learning-Comparining-Overfitting.git
 	```	
 <img src="https://i.imgur.com/GpMGS2t.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 
