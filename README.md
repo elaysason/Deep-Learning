@@ -5,8 +5,8 @@ Implementation of different fully connected classifiers which solves MINSIT and 
     - [Background](#background)
     - [Program Structure](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#program-structure)
 2. [Installation](#installation)
-3.  - [Running Instructions](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#running-instructions)
-4. [Footnote](#footnote)
+    - [Running Instructions](https://github.com/elaysason/Deep-Learning-Comparining-Overfitting/blob/main/README.md#running-instructions)
+3. [Footnote](#footnote)
 
 ## General
 
